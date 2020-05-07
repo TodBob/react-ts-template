@@ -1,0 +1,5 @@
+export const FETCH_POSTS = 'FETCH_POSTS';
+export const SET_POSTS_DATA = 'SET_POSTS_DATA';
+export const SET_POSTS_ERROR = 'SET_POSTS_ERROR';
+export const SET_POSTS_LOADING = 'SET_POSTS_LOADING';
+export const SET_POST_TITLE = 'SET_POST_TITLE';
