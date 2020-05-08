@@ -21,7 +21,11 @@ type userProps = {
   }
 }
 
-const Users = ({ fetchUsers, setUserName, users }: any) => {
+const Users = ({
+  fetchUsers,
+  setUserName,
+  users,
+}: any) => {
   useEffect(() => {
     fetchUsers();
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -2,8 +2,8 @@ import { createSelector } from 'reselect';
 
 type customProps = {
   users?: Array<Object>,
-  error?: boolean,
-  loading?: boolean,
+  userError?: boolean,
+  userLoading?: boolean,
   usersData?: Object,
   userName?: string
 }
@@ -20,12 +20,12 @@ export const getUsers = createSelector(
 
 export const getError = createSelector(
   getUsersData,
-  (state: customProps) => state.error,
+  (state: customProps) => state.userError,
 );
 
 export const getLoading = createSelector(
   getUsersData,
-  (state: customProps) => state.loading,
+  (state: customProps) => state.userLoading,
 );
 
 export const getUserName = createSelector(
