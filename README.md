@@ -9,11 +9,6 @@ With use of:
 - LocalStorage
 - ESlint
 
-TODO for app:
-
-- add test with JEST
-- add test with Cypress
-
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
